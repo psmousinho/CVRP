@@ -1,4 +1,5 @@
-obj/Model.o: src/Model.cpp src/Data.cpp src/dataStructs.h \
+obj/Model.o: src/Model.cpp src/include/Model.hpp src/include/Data.hpp \
+ src/include/DataStructs.hpp \
  /opt/ibm/ILOG/CPLEX_Studio128/cplex/include/ilcplex/ilocplex.h \
  /opt/ibm/ILOG/CPLEX_Studio128/concert/include/ilconcert/ilomodel.h \
  /opt/ibm/ILOG/CPLEX_Studio128/concert/include/ilconcert/iloalg.h \
